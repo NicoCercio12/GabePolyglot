@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clases de idiomas con Gabe Polyglot">
+    <meta name="author" content="Gabe">
+    <title>Gabe Polyglot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header> <img src="/imagenes/GabyPolyglotLogo.png" alt="Logo" class="logo">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#inicio" data-key="nav_inicio">Inicio</a></li>
+                <li><a href="#sobre-mi" data-key="nav_sobre_mi">Sobre mí</a></li>
+                <li><a href="#servicios" data-key="nav_servicios">Servicios</a></li>
+                <li><a href="#reseñas" data-key="nav_resenas">Reseñas</a></li>
+                <li><a href="#contacto" data-key="nav_contacto">Contacto</a></li>
+                <div class="lang-switch"> <button id="btn-es" type="button">ES</button> <button id="btn-en"
+                        type="button">EN</button> </div>
+            </ul>
+        </nav>
+    </header>
+    <main id="inicio">
+        <section class="hero">
+            <h2>Hello - Ciao</h2>
+            <h1>GABE POLYGLOT</h1>
+            <h2>Hola - Bonjour - Saluton</h2>
+            <p data-key="hero_desc">Te acompaño a aprender idiomas de una forma clara, cercana y efectiva, con clases
+                adaptadas a tu ritmo y
+                a tus objetivos.</p>
+        </section>>
+
+
+        <section id="sobre-mi">
+            <article class="card-sobre-mi">
+                <h1 data-key="sobre_titulo"> SOBRE MÍ </h1>
+
+
+                <div class="canva-wrapper">
+                    <div style="position: relative; width: 100%; height: 0; padding-top: 56.25%;
+                         box-shadow: 0 2px 8px rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em;
+                         overflow: hidden; border-radius: 8px;">
+
+
+                        <iframe loading="lazy"
+                            style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none;"
+                            src="https://www.canva.com/design/DAGhKSUDIiA/ypk4TRQfuhOpTRFPWBS0Hw/view?embed"
+                            allowfullscreen>
+                        </iframe>
+
+
+                    </div>
+                </div>
+
+
+                <p data-key="sobre_desc"></p>
+            </article>
+        </section>
+        <section id="servicios" class="servicios">
+            <article class="card-servicio">
+                <img src="/imagenes/uk.png" alt="Idioma 1">
+                <h3 data-key="serv_ingles_titulo">Idioma 1</h3>
+                <p data-key="serv_ingles_desc">descripcion del servicio</p>
+            </article>
+            <article class="card-servicio">
+                <img src="imagenes/france.png" alt="Idioma 2">
+                <h3 data-key="serv_frances_titulo">Idioma 2</h3>
+                <p data-key="serv_frances_desc">descripcion del servicio</p>
+            </article>
+            <article class="card-servicio">
+                <img src="imagenes/italy.png" alt="Idioma 3">
+                <h3 data-key="serv_italiano_titulo">Idioma 3</h3>
+                <p data-key="serv_italiano_desc">descripcion del servicio</p>
+            </article>
+            <article class="card-servicio">
+                <img src="imagenes/esperanto.png" alt="">
+                <h3 data-key="serv_esperanto_titulo">Idioma 4</h3>
+                <p data-key="serv_esperanto_desc"> Descripcion </p>
+            </article>
+            <article class="card-servicio">
+                <img src="imagenes/cataluña.png" alt="">
+                <h3 data-key="serv_catalan_titulo">Idioma 3</h3>
+                <p data-key="serv_catalan_desc">Descripcion</p>
+            </article>
+            <article class="card-servicio">
+                <img src="imagenes/coming soon.jpg" alt="">
+            </article>
+        </section>
+        <section id="reseñas" class="reseñas">
+            <h2 data-key="reseñas_titulo">Reseñas</h2>
+
+            <div class="reseñas-grid">
+                <article>
+                    <h3 data-key="resena_1_nombre">Lucía Fernández</h3>
+                    <p data-key="resena_1_texto">Las clases son súper claras y dinámicas. En pocos meses mejoré
+                        muchísimo mi inglés.</p>
+                </article>
+
+                <article>
+                    <h3 data-key="resena_2_nombre">Martín López</h3>
+                    <p data-key="resena_2_texto">Explica de una forma muy simple y con mucha paciencia. Se adapta a tu
+                        ritmo.</p>
+                </article>
+
+                <article>
+                    <h3 data-key="resena_3_nombre">Sofía Ramírez</h3>
+                    <p data-key="resena_3_texto">Me ayudó a preparar un examen de francés y me fue excelente. Muy
+                        recomendable.</p>
+                </article>
+
+                <article>
+                    <h3 data-key="resena_4_nombre">Diego Pérez</h3>
+                    <p data-key="resena_4_texto">Clases entretenidas y bien organizadas. Se nota la pasión por enseñar.
+                    </p>
+                </article>
+
+                <article>
+                    <h3 data-key="resena_5_nombre">Valentina Gómez</h3>
+                    <p data-key="resena_5_texto">Aprender italiano con él fue una experiencia genial. Todo muy claro
+                        desde el primer día.</p>
+                </article>
+
+                <article>
+                    <h3 data-key="resena_6_nombre">Javier Torres</h3>
+                    <p data-key="resena_6_texto">Muy profesional y cercano. Hace que aprender idiomas sea mucho más
+                        fácil.</p>
+                </article>
+            </div>
+        </section>
+        <section class="contacto" id="contacto">
+            <h2 data-key="contacto_titulo">Contacto</h2>
+            <div class="contacto-layout">
+                <div class="contacto-info">
+                    <p data-key="contacto_desc">¿Tenés alguna consulta? No dudes en contactarme</p>
+                </div>
+            </div>
+            <form action="https://formspree.io/f/xdaybppg" method="POST" class="form-contacto">
+                <label>
+                    <span data-key="label_nombre">Nombre</span>
+                    <input type="text" name="nombre" required>
+                </label>
+
+                <label>
+                    <span data-key="label_email">Email</span>
+                    <input type="email" name="email" required>
+                </label>
+
+                <label>
+                    <span data-key="label_mensaje">Mensaje</span>
+                    <textarea name="mensaje" rows="4" required></textarea>
+                </label>
+
+                <button type="submit" data-key="form_enviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="redes"> <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" class="whatsapp"
+                aria-label="Abrir WhatsApp"> <svg class="whatsapp-icon" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M12.04 2C6.57 2 2.1 6.47 2.1 11.94c0 1.75.46 3.46 1.34 4.97L2 22l5.23-1.37c1.43.78 3.04 1.19 4.81 1.19h.01c5.47 0 9.94-4.47 9.94-9.94C22 6.47 17.51 2 12.04 2zm0 18.11c-1.55 0-3.07-.41-4.4-1.18l-.31-.18-3.1.81.83-3.02-.2-.32a8.02 8.02 0 0 1-1.22-4.27c0-4.45 3.62-8.06 8.08-8.06s8.08 3.61 8.08 8.06-3.62 8.06-8.08 8.06zm4.7-6.06c-.26-.13-1.53-.76-1.77-.84-.24-.09-.41-.13-.58.13-.17.26-.67.84-.82 1.01-.15.17-.3.19-.56.06-.26-.13-1.11-.41-2.11-1.31-.78-.7-1.31-1.56-1.47-1.82-.15-.26-.02-.39.11-.52.12-.12.26-.3.39-.44.13-.15.17-.26.26-.43.09-.17.04-.32-.02-.44-.06-.13-.58-1.39-.79-1.9-.2-.49-.4-.42-.58-.43h-.5c-.17 0-.44.06-.67.32-.23.26-.9.88-.9 2.15s.92 2.5 1.05 2.67c.13.17 1.82 2.77 4.41 3.89.62.27 1.1.43 1.48.55.62.2 1.18.17 1.62.1.49-.07 1.53-.62 1.74-1.22.21-.59.21-1.1.15-1.22-.06-.13-.23-.19-.49-.32z" />
+                </svg> </a> <a href="https://www.instagram.com/languages_gabe" target="_blank" rel="noopener noreferrer"
+                class="social-link instagram" aria-label="Abrir Instagram"> <svg class="social-icon"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm4.5-2.5a1 1 0 110 2 1 1 0 010-2z" />
+                </svg> </a> <a href="https://www.tiktok.com/@languages_gabe" target="_blank" rel="noopener noreferrer"
+                class="social-link tiktok" aria-label="Abrir TikTok"> <svg class="social-icon"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M16 3c.3 1.7 1.7 3 3.4 3.3v3c-1.3 0-2.5-.4-3.4-1v6.5a5.5 5.5 0 11-4.8-5.4v3a2.5 2.5 0 102.8 2.5V3h2z" />
+                </svg> </a>
+            <p>&copy; 2026 Gabe Polyglot</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+
+</html>
